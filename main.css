@@ -1,0 +1,117 @@
+body {
+    margin: unset;
+    font-family: Lato;
+}
+
+.header {
+    background-color: #D9D8AB;
+    height: 120px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-logo {
+    margin-left: 10px;
+    height: 90px;
+}
+
+.navbar {
+    height: 30px;
+    border-top: 1px #4E4631 solid;
+}
+
+.link-card {
+    margin: 2px 0px;
+    padding: 0px 10px;
+}
+
+a {
+    color: #4E4631 !important;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.main {
+    height: calc(100vh - 120px - 40px);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #E2E3D0;
+    overflow: auto;
+}
+
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0px 10px;
+    color: #4E4631;
+}
+.team-card-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.team-card {
+    height: 100px;
+    max-width: 250px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px 10px;
+}
+
+.team-card-photo {
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+.team-card-text {
+    padding: 5px;
+    height: 100%;
+    font-size: 12px;
+
+}
+
+.footer {
+    height: 40px;
+    background-color: #D9D8AB;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-logo {
+    float: right;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+.col {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: Londrina Solid;
+    font-size: 25px;
+    color: #77567A;
+}
