@@ -1,6 +1,7 @@
 body {
     margin: unset;
     font-family: Lato;
+    font-weight: 400;
 }
 
 .header {
@@ -50,13 +51,15 @@ a {
     margin: 0px 10px;
     color: #4E4631;
 }
-.team-card-wrapper{
+
+.team-card-wrapper {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
 
 }
+
 .team-card {
     height: 100px;
     max-width: 250px;
@@ -114,4 +117,31 @@ h1 {
     font-family: Londrina Solid;
     font-size: 25px;
     color: #77567A;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Londrina Solid';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/londrinasolid/v10/flUhRq6sw40kQEJxWNgkLuudGfNeKBM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
